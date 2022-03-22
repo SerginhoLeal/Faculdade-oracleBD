@@ -14,7 +14,7 @@
   
   initcap: deixa as iniciais em maiusculas;
   
-  like: 
+  like: 'banco' like '%X%' // '_X'
   
 #  Atividade <br />
   ![image](https://user-images.githubusercontent.com/48488987/159388224-0e4a420e-3df0-42cb-bb16-6b24991ef7ed.png)
