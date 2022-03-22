@@ -53,3 +53,11 @@
   /* 11 - Quais atores tm Jr no nome? */
   
   select nome_ator from tb_ator where nome_ator like '%Jr%';
+  
+  /* 12 */
+  
+  select nome_ator from tb_ator where nome_ator like 'Jo%';
+
+  /* 13 */
+  
+  select nome_ator from tb_ator where nome_ator like '%el%';
