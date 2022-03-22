@@ -54,9 +54,8 @@
   
   select nome_ator from tb_ator where nome_ator like '%Jr%';
   
-  /* 12 */
-  
+  --12 <br>
   select nome_ator from tb_ator where nome_ator like 'Jo%';
 
-  /* 13 */<br />
+  --13 <br />
   select nome_ator from tb_ator where nome_ator like '%el%';
