@@ -19,15 +19,15 @@
 #  Atividade <br />
   ![image](https://user-images.githubusercontent.com/48488987/159388224-0e4a420e-3df0-42cb-bb16-6b24991ef7ed.png)
   
-  /* 1 - Qual é o nome e a arrecadação dos filmes cadastrados */
+  - 1 - Qual é o nome e a arrecadação dos filmes cadastrados */
   
   select nome_filme, arrecadacao from tb_filme;
 
-  /* 2 - Qual filme arrecadou menos de 1bilhão */
+  - 2 - Qual filme arrecadou menos de 1bilhão */
   
   select nome_filme, arrecadacao from tb_filme where arrecadacao < 1000000000;
 
-  /* 3 - Qual o lucro do filme 'Velozes e Furiosos 7' (arrecadacao - custo)*/
+  - 3 - Qual o lucro do filme 'Velozes e Furiosos 7' (arrecadacao - custo)*/
   
   select (arrecadacao - custo) lucro, arrecadacao, custo from tb_filme where nome_filme = 'Velozes e Furiosos 7';
 
