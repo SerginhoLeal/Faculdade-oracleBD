@@ -21,7 +21,7 @@
   
   - 1 - Qual é o nome e a arrecadação dos filmes cadastrados.
   
-  select nome_filme, arrecadacao from tb_filme;
+      - select nome_filme, arrecadacao from tb_filme;
 
   - 2 - Qual filme arrecadou menos de 1bilhão.
   
