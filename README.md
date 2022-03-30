@@ -56,3 +56,11 @@
   - 12 - select nome_ator from tb_ator where nome_ator like 'Jo%';
 
   - 13 - select nome_ator from tb_ator where nome_ator like '%el%';
+  
+  - Qual empregado tem salário entre R$2000 e R$3000?
+         
+         select nome_empregado from empregado where salario between 2000 and 3000;
+
+  - Qual o funcionário foi admitido em 30/04/2012?
+  
+        select nome_empregado from empregado where to_char(admissao, 'DD/MM/YYYY') = '30/04/2012';
