@@ -53,10 +53,6 @@
   
         select nome_ator from tb_ator where nome_ator like '%Jr%';
   
-  - select nome_ator from tb_ator where nome_ator like 'Jo%';
-
-  - select nome_ator from tb_ator where nome_ator like '%el%';
-  
   - Qual empregado tem salário entre R$2000 e R$3000?
          
          select nome_empregado from empregado where salario between 2000 and 3000;
