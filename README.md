@@ -50,7 +50,7 @@
   
   select sexo_ator from tb_ator where lower(nome_ator) = lower('kristEn Bell');
 
-  /* 11 - Quais atores tm Jr no nome? */
+  - 11 - Quais atores tm Jr no nome? */
   
   select nome_ator from tb_ator where nome_ator like '%Jr%';
   
