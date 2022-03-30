@@ -67,7 +67,7 @@
         
   - Quais os funcionários foram admitidos no mês de maio?
 
-        select nome_empregado from empregado where to_char(admissao, 'MM') = '04';
+        select nome_empregado from empregado where to_char(admissao, 'MM') = '05';
   
   - Quais empregados foram admitidos entre 10/05/2012 e 30/05/2012?
         
