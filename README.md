@@ -67,4 +67,5 @@
   
   - Quais empregados foram admitidos entre 10/05/2012 e 30/05/2012?
         
-        select nome_empregado from empregado where to_char(admissao, 'DD/MM/YYYY') between '10/05/2012' and '30/05/2012';
+        bad: select nome_empregado from empregado where to_char(admissao, 'DD/MM/YYYY') between '10/05/2012' and '30/05/2012';
+        good: select nome_empregado from empregado where to_char(admissao, 'YYYYMMDD') between '20120510' and '20120530';
