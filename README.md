@@ -64,3 +64,7 @@
   - Qual o funcionário foi admitido em 30/04/2012?
   
         select nome_empregado from empregado where to_char(admissao, 'DD/MM/YYYY') = '30/04/2012';
+        
+   - Quais os funcionários foram admitidos no mês de maio?
+
+        select nome_empregado from empregado where to_char(admissao, 'MM') = '04';
