@@ -69,3 +69,6 @@
         
         bad: select nome_empregado from empregado where to_char(admissao, 'DD/MM/YYYY') between '10/05/2012' and '30/05/2012';
         good: select nome_empregado from empregado where to_char(admissao, 'YYYYMMDD') between '20120510' and '20120530';
+              or
+              select nome_empregado, admissao from empregado where admissao between to_date('20120510', 'YYYYMMDD') and to_date('20120530', 'YYYYMMDD');
+
