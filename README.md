@@ -73,3 +73,6 @@
         exeplos pegando até as horas: 
           select nome_empregado, admissao from empregado where admissao between to_date('2012051023:59:59', 'YYYYMMDDHH24:MI:SS') and to_date('2012053015:16:26', 'YYYYMMDDHH24:MI:SS');
 
+    - quantos empregados trabalham na secretaria
+      
+          select count(cod_empregado) from empregado e, setor s where s.cod_setor = e.cod_setor and lower(nome_setor) = 'secretaria';
