@@ -10,4 +10,11 @@
 
   - c) Quais os candidatos do partido PQX?
     
-        - select nome_candidato, cod_cargo from candidato x, partido p where x.cod_partido = p.cod_partido and lower(nome_partido) = 'pqx';
+        - select nome_candidato from candidato x, partido p where x.cod_partido = p.cod_partido and lower(nome_partido) = 'pqx';
+
+  - d) Para quais cargos o partido PZY tem candidato?
+    
+        - select nome_cargo from cargo x, partido y, candidato z
+where x.cod_cargo = z.cod_cargo
+and z.cod_partido = y.cod_partido
+and lower(nome_partido) = 'pzy';
